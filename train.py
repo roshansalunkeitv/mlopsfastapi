@@ -29,5 +29,9 @@ def train_model():
         # Log model
         mlflow.sklearn.log_model(model, "model")
 
+
+
+        
+
 if __name__ == "__main__":
     train_model()
